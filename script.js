@@ -478,7 +478,7 @@ mm.add(
     });
 
     tl.to("#image-sec", {
-      top: isLaptop ? "50%" : "50%",
+      top: isLaptop ? "60%" : "55%",
       left: isLaptop ? "-18%" : "-2%",
       rotate: isLaptop ? "15deg" : "15deg", // 20deg
       scale: isLaptop ? "0.6" : "0.9",
@@ -492,7 +492,7 @@ mm.add(
     var leftSectionTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "#section-part2",
-        start: isLaptop ? "top 80%" : "top 80%",
+        start: isLaptop ? "top 65%" : "top 70%",
         end: isLaptop ? "top 85%" : "top 90%",
         scrub: isLaptop ? 1.5 : 2,
         // markers: true, // Uncomment to see trigger points
